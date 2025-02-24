@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import "tailwind.css";
+
+
+/* Import fonts and Tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import "tailwind.css";
+
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(118, 142, 126);
+    box-shadow: 10px 10px 10px rgba(155, 44, 44, 0.1);
+    padding: 10px;
+    border-radius: 2px;
+    width: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: first start;
+}
+.fa-solid {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 10px 0px 0px 20px;
+}
+
+
+.name {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.nav-links li {
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+
+/* Main content */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(85, 101, 90); */
+    width: 100%;    
+    background-color: rgb(118, 142, 126);
+    flex-direction: column;
+
+ 
+}
+
+.text-content {
+    background-color: rgb(118, 142, 126);
+    justify-content:center;
+    align-items: center;
+    padding: 60px;
+    margin: 30px;
+     /*
+    margin: 0px 0px 10px 70px; */
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    word-spacing: 3px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+}
+
+/* Links section */
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.links a{
+    color: rgb(105, 13, 13);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 7px 7px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Image section */
+  .image img {
+    width:auto;
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 2%;
+    box-shadow: #333;
+    /* margin: 20px 100px 30px 0px; */
+
+  }
+
+/* here */
+
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.main-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-width: 500px;
+    text-align: center;
+}
+
+.main-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.skill-card {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.skill-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.backend{
+    background-color: #333;
+}
+.frontend{
+    background-color: grey;
+}
+
+
+.footer {
+    background-color: #1a4fb8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #ffcc00;
+}
